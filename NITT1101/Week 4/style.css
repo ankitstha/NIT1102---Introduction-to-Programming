@@ -1,0 +1,19 @@
+div {
+    padding-left: auto;
+    padding-right: auto;
+}
+h1, h2 {
+    font-family: 'Arial', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.add {
+    width: 10px;
+    height: 10px;
+}
+
+.eq {
+    width: 15px;
+    height: 15px;
+}

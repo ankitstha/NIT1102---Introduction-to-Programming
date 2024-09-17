@@ -1,0 +1,39 @@
+h1 {        /* Styling for header 1 */
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    color: rgb(51,51,255)
+}
+
+h5 {      /* Styling for header 5 */
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    color: rgb(51,102,153);
+}
+ img {    /* Styling for image */
+    height: 220px;
+    padding-left: 20px;
+    padding-right: 20px;
+ }
+
+ h4 {    /* Styling for header 4 */
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(51,0,204);
+ }
+
+ .when {     /* Styling for class when (ordered list) */
+    list-style-type: lower-alpha;
+ }
+
+ .where {    /* Styling for class where (ordered list) */
+    list-style-type: lower-roman;
+ }
+
+ aside {   /* Styling for aside */
+    border: 2px dashed rgb(0, 0, 0);
+    padding-left: 20px;
+    padding-right: 20px;
+ }
+
+ .final {  /* Styling for class final (paragraph) */
+    font-family: 'Courier New', Courier, serif;
+ }

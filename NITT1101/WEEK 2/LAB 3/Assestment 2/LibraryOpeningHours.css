@@ -1,0 +1,14 @@
+h1 {           /* Styling for header 1 */
+    color: rgb(51,51,255);
+    font-family: 'Times New Roman', 'sans-serif';
+    text-align: left;
+    
+}
+h3 {         /* Styling for header 3 */
+    color: rgb(51,0,204);
+    font-family: 'Times New Roman', 'sans-serif';
+    text-align: left;
+}
+ol {      /* Styling for ordered list */
+    list-style-type: disc;
+}

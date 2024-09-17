@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Enrolment Form</title>
+    <link rel="stylesheet" href="vu.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="./logo_VIC_UNI.jpg" alt="Logo" class="logo">
+        </div>
+    </header>
+    <hr>
+    <main>
+        <h2>
+            Course Enrollment Form
+        </h2>
+        <form>
+            <label for="name">Full Name</label><br>
+            <input type="text" id="name" name="name" required class="name">
+            <br>
+            <label for="email">Email Address</label><br>
+            <input type="email" id="email" name="email" required class="email">
+            <br>
+            <label for="course">Select Course:</label><br>
+            <select name="course" id="course" required class="course" class="course">
+                <option value="Select">Select a course</option>
+                <option value="Bachelor of Information Technology">Bachelor of Information Technology</option>
+                <option value="Bachelor of Business">Bachelor of Business</option>
+                <option value="Bachelor of Engineering">Bachelor of Engineering</option>
+                <option value="Bachelor of Science">Bachelor of Science</option>
+                <br>
+            </select>
+            <label for ="contact">Contact Number</label> <br>
+            <input type="text" id="contact" name="contact" required class="contact">
+            <br>
+            <label for="additional">Additional Comments</label><br>
+            <textarea name="additional" id="additional" cols="30" rows="10" class="additional"></textarea>
+            <input type="submit" value="Enrol Now" class="submit">
+        </form>
+    </main>
+</body>
+</html>
